@@ -15,7 +15,7 @@
   <main class="mt-5 py-4 bg-gray-300">
 
     <section class="bg-gray-100 sm:w-8/12 rounded-sm  sm:m-auto flex items-center justify-between">
-      <div class="m-auto flex items-center border my-2 mx-2 p-2">
+      <div class="m-auto flex items-center  my-2 mx-2 p-2">
 
           <div>
               <img class="sm:h-32  w-auto sm:w-auto" src="image/square.png" alt="">
@@ -25,7 +25,7 @@
           </div>
       </div>
 
-      <div class="m-auto flex border text-gray-700 sm:mx-14 justify-center items-center mx-3 p-2">
+      <div class="m-auto flex  text-gray-700 sm:mx-14 justify-center items-center mx-3 p-2">
 
         <button id="phone-decrease-qyt" class="text-2xl px-2 font-extrabold mx-2">-</button>
             <input id="mobileInputPrice" class="w-14 text-center font-semibold h-10" min="0" value="1" type="number">
@@ -42,7 +42,7 @@
 
 <!-- HEADPHONE SECTION  -->
     <section class="bg-gray-100 sm:w-8/12 rounded-sm sm:my-1 my-1 sm:m-auto flex items-center justify-between">
-      <div class="m-auto flex items-center border my-2 mx-2 p-2">
+      <div class="m-auto flex items-center  my-2 mx-2 p-2">
 
           <div>
               <img class="sm:h-32  w-auto sm:w-auto" src="image/purepng.com-headphoneelectronicsheadset-headphone-941524670894v2zxb.png" alt="">
@@ -52,25 +52,25 @@
           </div>
       </div>
 
-      <div class="m-auto flex border text-gray-700 sm:mx-14 justify-center items-center mx-3 p-2">
+      <div class="m-auto flex  text-gray-700 sm:mx-14 justify-center items-center mx-3 p-2">
 
-        <button class="text-2xl px-2 font-extrabold mx-2">-</button>
-            <input class="w-14 text-center font-semibold h-10" value="1" type="number"  name="">
-        <button class="text-2xl px-2 font-extrabold mx-2">+</button>
+        <button id="hedpnMinus" class="text-2xl px-2 font-extrabold mx-2">-</button>
+            <input id="headphnQty" class="w-14 text-center font-semibold h-10" value="1" type="number" >
+        <button id="hedpPlus" class="text-2xl px-2 font-extrabold mx-2">+</button>
 
         <div class="font-semibold sm:text-2xl  inline">
-            <h5 class="inline px-4 ">787</h5>
+            <h5 id="totalPrice" class="inline px-4 ">700</h5>
         </div>
 
       </div>
     </section>
       
-
-
-
-
-
   </main>
+
+
+
+  
 <script src="jsFile/phone.js"></script>
+<script src="jsFile/headphn.js"></script>
 </body>
 </html>

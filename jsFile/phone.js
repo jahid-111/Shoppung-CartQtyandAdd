@@ -19,7 +19,9 @@ function theCounterValueQty(counterValue){
 
 document.getElementById("phone-increase-qyt").addEventListener('click', function(){
    const theValue= theCounterValueQty(true)
+
    const total= theValue*1299;
+   
    const priceTotal=document.getElementById('priceTotal');   
    priceTotal.innerText=total;
 
