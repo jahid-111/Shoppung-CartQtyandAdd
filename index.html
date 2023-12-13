@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CART</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200 w-11/12 m-auto">
+
+  <header class="bg-blue-300 mt-3">
+      <h1 class="text-5xl text-center py-4 font-bold text-orange-500 shadow-xl">Shopping Cart</h1>
+  </header>
+  
+  <main class="mt-5 py-4 bg-gray-300">
+
+    <section class="bg-gray-100 sm:w-8/12 rounded-sm  sm:m-auto flex items-center justify-between">
+      <div class="m-auto flex items-center border my-2 mx-2 p-2">
+
+          <div>
+              <img class="sm:h-32  w-auto sm:w-auto" src="image/square.png" alt="">
+          </div>
+          <div>
+                <h3 class="text-sm font-medium sm:text-2xl    text-gray-700 mx-2">iPhone 15 Pro Max </h3>
+          </div>
+      </div>
+
+      <div class="m-auto flex border text-gray-700 sm:mx-14 justify-center items-center mx-3 p-2">
+
+        <button id="phone-decrease-qyt" class="text-2xl px-2 font-extrabold mx-2">-</button>
+            <input id="mobileInputPrice" class="w-14 text-center font-semibold h-10" min="0" value="1" type="number">
+        <button id="phone-increase-qyt" class="text-2xl px-2 font-extrabold mx-2">+</button>
+
+        <div class="font-semibold sm:text-2xl  inline">
+            <span id="priceTotal" class="inline px-4 ">1299</span>
+        </div>
+
+      </div>
+    </section>
+
+
+
+<!-- HEADPHONE SECTION  -->
+    <section class="bg-gray-100 sm:w-8/12 rounded-sm sm:my-1 my-1 sm:m-auto flex items-center justify-between">
+      <div class="m-auto flex items-center border my-2 mx-2 p-2">
+
+          <div>
+              <img class="sm:h-32  w-auto sm:w-auto" src="image/purepng.com-headphoneelectronicsheadset-headphone-941524670894v2zxb.png" alt="">
+          </div>
+          <div>
+                <h3 class="text-sm font-medium sm:text-2xl  text-gray-700 mx-2">Head Phone pro </h3>
+          </div>
+      </div>
+
+      <div class="m-auto flex border text-gray-700 sm:mx-14 justify-center items-center mx-3 p-2">
+
+        <button class="text-2xl px-2 font-extrabold mx-2">-</button>
+            <input class="w-14 text-center font-semibold h-10" value="1" type="number"  name="">
+        <button class="text-2xl px-2 font-extrabold mx-2">+</button>
+
+        <div class="font-semibold sm:text-2xl  inline">
+            <h5 class="inline px-4 ">787</h5>
+        </div>
+
+      </div>
+    </section>
+      
+
+
+
+
+
+  </main>
+<script src="jsFile/main.js"></script>
+</body>
+</html>
